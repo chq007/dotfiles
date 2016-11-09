@@ -104,3 +104,5 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+" use soduw to save changes for privileged files
+cnoremap sudow w !sudo tee % >/dev/null
