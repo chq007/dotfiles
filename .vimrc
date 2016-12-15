@@ -13,6 +13,8 @@ set wildmenu
 set esckeys
 " Allow backspace in insert mode
 set backspace=indent,eol,start
+" set auto-indenting 
+set ai
 " Optimize for fast terminal connections
 set ttyfast
 " Add the g flag to search/replace by default
