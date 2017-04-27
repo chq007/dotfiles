@@ -14,7 +14,7 @@ set esckeys
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 " set auto-indenting 
-set ai
+set autoindent
 " Optimize for fast terminal connections
 set ttyfast
 " Add the g flag to search/replace by default
@@ -49,7 +49,8 @@ syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
-set tabstop=2
+set tabstop=4
+set smarttab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
